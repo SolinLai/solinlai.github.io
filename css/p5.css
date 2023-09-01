@@ -1,0 +1,259 @@
+* {
+    /* 全局设置 */
+    margin: 0;
+    /* 外边距设置0 */
+    padding: 0;
+    /* 内边距设置0 */
+    list-style: none;
+    /* 取消列表序号 */
+    text-decoration: none;
+    /* 取消链接下划线 */
+}
+
+.w {
+    /* 背景宽度1280像素及水平居中 */
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    position: fixed;
+    list-style-image: none;
+    height: 60px;
+    /* background-color: red; */
+    z-index: 999;
+    /* 一直将导航栏置于最顶层 */
+    overflow: hidden;
+
+}
+
+.header div {
+    margin: 0 auto;
+    width: 1200px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.header div a {
+    margin: 0 20px;
+    float: left;
+    font-size: 20px;
+    /* background-color: pink; */
+    height: 60px;
+    line-height: 60px;
+    /* 高度+行高=垂直居中 */
+    color: #999;
+}
+
+.header div a:hover {
+    color: #0edcbc;
+}
+
+.top {
+    height: 75px;
+
+}
+
+/* 以上勿删 */
+.list {
+    width: 800px;
+    height: 180px;
+}
+
+.list ul {
+    float: left;
+}
+
+.list ul li {
+    height: 30px;
+    line-height: 30px;
+}
+
+.list ul li a {
+    color: #000;
+}
+
+.list .list1 li {
+    width: 100px;
+    height: 150px;
+    line-height: 150px;
+    line-height: 150px;
+    text-align: center;
+}
+
+.list .list2 {
+    width: 350px;
+}
+
+.list .list2 a:hover {
+    color: #0edcbc;
+}
+
+.list .list2 a {
+    color: #666;
+}
+
+.doc {
+    width: 800px;
+
+}
+
+.doc h2,
+h4,
+p {
+    margin: 20px;
+}
+
+.doc p {
+    text-indent: 2em;
+}
+
+.directory {
+    width: 1200px;
+    height: 400px;
+    margin: 35px auto;
+}
+
+.directory dl {
+    width: 200px;
+    height: 120px;
+    background-color: blue;
+}
+
+
+
+.nav ul li a:hover {
+    background-color: #0edcbc;
+    color: #000;
+}
+
+.nav ul li a {
+    margin: 0 50px;
+    padding: 15px;
+    color: #7d7d7d;
+    border-radius: 20px;
+    font-size: 25px;
+}
+
+.nav dl {
+    display: none;
+}
+
+.nav ul li:hover dl {
+    display: block;
+}
+
+
+
+
+
+
+.img {
+    height: 675px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.2);
+    /* 阴影 */
+}
+
+.img img {
+    position: absolute;
+    height: 675px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+
+.main>div {
+    float: left;
+    width: 397px;
+    height: 268px;
+    /* background-color: #3298b8; */
+    border-width: 1px;
+    border-style: solid;
+    border-color: #f2f4f699;
+}
+
+.main>div:hover {
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+.main div a {
+    color: #999;
+    display: inline-block;
+    width: 397px;
+    height: 266px;
+    line-height: 40px;
+}
+
+.main div a div {
+
+    width: 397px;
+    height: 150px;
+}
+
+.main div a div img {
+    /* 灰色相框 */
+    float: left;
+    position: relative;
+    top: 50px;
+    left: 130px;
+}
+
+.main div a div .black {
+    /* 黑色相框 */
+    float: left;
+    visibility: hidden;
+    /* 隐藏 */
+    position: relative;
+    top: 50px;
+    left: -6px;
+}
+
+.main div:hover a div .black {
+    visibility: visible;
+    /* 显示 */
+}
+
+.main div a div video {
+    float: left;
+    position: relative;
+    top: 54px;
+    left: -115px;
+    height: 80px;
+}
+
+-->
+
+/* 以下勿删 */
+.bottom {
+    width: 1200px;
+}
+
+.bottom ul li p {
+    height: 50px;
+    line-height: 50px;
+    color: #999;
+}
+
+.bottom ul li .p1 {
+    margin-top: 80px;
+}
+
+.bottom ul li .p2 {
+    margin-bottom: 60px;
+}
+
+.bottom ul li a {
+    font: none;
+    margin: 0 20px 0 0;
+    color: #666;
+}
+
+.bottom ul li a:hover {
+    color: #14E0BC;
+}
