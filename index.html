@@ -1,11 +1,162 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="zh-CN">
+
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<meta charset="utf-8">
+	<link rel="icon" href="img/index/iocn.png" type="image/x-icon" />
+	<title>成都城市燃气客户服务有限公司</title>
+	<link rel="stylesheet" href="./css/index.css" />
+	<link rel="stylesheet" href="./css/animate.min.4.1.1.css">
+	<script type="text/javascript">
+		var slides = document.getElementsByClassName('slide');
+		var currentSlide = 0;
+		setInterval(function () {
+			for (var i = 0; i < slides.length; i++) {
+				// slides[i].style.display = 'none';
+				slides[i].style.display = 'none';
+			}
+			currentSlide = (currentSlide + 1) % slides.length;
+			slides[currentSlide].style.display = 'block';
+		}, 3000);
+	</script>
 </head>
+
 <body>
-	<h1>测试</h1>
+	<div class="header w">
+		<div class="header-box">
+			<div class="header-1 w">
+				<a class="animate__animated animate__heartBeat animate__slow animate__infinite" href="#">
+					首&nbsp;页
+				</a>
+			</div>
+			<div class="header-2 w">
+			</div>
+			<div class="header-3 w">
+				<ul>
+					<li>
+						<a class="a-1"
+							href="https://app.rwork.crc.com.cn/file/boxk917l411IhAl6XRmvC2aY3yp?from=from_copylink"
+							target="_blank">
+							<img src="img/index/download.png" height="38" alt="文件下载">
+							非招采购操作步骤&nbsp;&nbsp;&nbsp;&nbsp;
+
+						</a>
+					</li>
+					<li>
+						<a class="a-2" href="html/help.html">使用演示&nbsp;&nbsp;&nbsp;&nbsp;</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="top w"></div>
+	<div class="img w">
+		<img class="slide" src="img/index/1.jpg">
+		<img class="slide" src="img/index/2.jpg">
+		<img class="slide" src="img/index/3.jpg">
+		<img class="slide" src="img/index/4.jpg">
+		<img class="slide" src="img/index/5.jpg">
+	</div>
+	</div>
+	<div class="main w">
+		<div>
+			<a href="html/p1.html">
+				<div>
+					<img class="grey" src="img/index/grey.png" alt="" height="100">
+					<img class="black animate__animated animate__pulse animate__infinite" src="img/index/black.png"
+						alt="" height="100">
+					<video autoplay="autoplay" loop="loop" muted="true">
+						<!-- autoplay="autoplay"为自动播放 loop="loop"为循环播放 muted="true"为让视频静音，避免无法自动循环播放 -->
+						<source src="video/index/采购方式.mp4" type="video/mp4">
+					</video>
+				</div>
+				采购方式
+			</a>
+		</div>
+		<div>
+			<a href="html/p2h1.html">
+				<div>
+					<img class="grey" src="img/index/grey.png" alt="" height="100">
+					<img class="black animate__animated animate__pulse animate__infinite" src="img/index/black.png"
+						alt="" height="100">
+					<video autoplay="autoplay" loop="loop" muted="true">
+						<source src="video/index/采购人.mp4" type="video/mp4">
+					</video>
+				</div>
+				采购人
+			</a>
+		</div>
+		<div>
+			<a href="html/p3h1.html">
+				<div>
+					<img class="grey" src="img/index/grey.png" alt="" height="100">
+					<img class="black animate__animated animate__pulse animate__infinite" src="img/index/black.png"
+						alt="" height="100">
+					<video autoplay="autoplay" loop="loop" muted="true">
+						<source src="video/index/招采管理.mp4" type="video/mp4">
+					</video>
+				</div>
+				招采管理
+			</a>
+		</div>
+		<div>
+			<a href="html/p4.html" id="dianji">
+				<div>
+					<img class="grey" src="img/index/grey.png" alt="" height="100">
+					<img class="black animate__animated animate__pulse animate__infinite" src="img/index/black.png"
+						alt="" height="100">
+					<video autoplay="autoplay" loop="loop" muted="true">
+						<source src="video/index/制度及附件.mp4" type="video/mp4">
+					</video>
+
+				</div>
+				制度及附件
+			</a>
+		</div>
+		<div>
+			<a href="html/p5.html">
+				<div>
+					<img class="grey" src="img/index/grey.png" alt="" height="100">
+					<img class="black animate__animated animate__pulse animate__infinite" src="img/index/black.png"
+						alt="" height="100">
+					<video autoplay="autoplay" loop="loop" muted="true">
+						<source src="video/index/评标专家库.mp4" type="video/mp4">
+					</video>
+				</div>
+				评标专家库
+			</a>
+		</div>
+		<div>
+			<a href="html/p6.html">
+				<div>
+					<img class="grey" src="img/index/grey.png" alt="" height="100">
+					<img class="black animate__animated animate__pulse animate__infinite" src="img/index/black.png"
+						alt="" height="100">
+					<video autoplay="autoplay" loop="loop" muted="true">
+						<source src="video/index/资料库.mp4" type="video/mp4">
+					</video>
+				</div>
+				资料库
+			</a>
+		</div>
+	</div>
+	<div class="bottom w">
+		<ul>
+			<li>
+				<p class="p1">
+					办公网站导航
+				</p>
+				<a href="http://home.crc.com.cn/" target="_blank">华润燃气综合内网</a>
+				<a href="http://crportal.crc.com.cn/CrBasisPortal/resourceList.html"
+					target="_blank">成都燃气协同办公系统（OA系统）</a>
+				<a href="https://szecp.crc.com.cn" target="_blank">华润集团守正电子招标平台</a>
+				<p class="p2">
+					联系电话：028-84433559
+				</p>
+			</li>
+		</ul>
+
+	</div>
 </body>
+
 </html>
