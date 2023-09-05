@@ -11,14 +11,10 @@
 }
 
 .w {
-    /* 背景宽度1280像素及水平居中 */
+    /* 背景宽度1200像素及水平居中 */
     width: 1200px;
     margin: 0 auto;
 }
-
-/* body {
-    background-color: #000;
-} */
 
 .header {
     width: 100%;
@@ -40,7 +36,6 @@
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
-
 
 .header .header-1 a {
     float: left;
@@ -103,7 +98,7 @@
 }
 
 .img {
-    height: 600px;
+    height: 520px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.2);
@@ -113,81 +108,68 @@
 .img img {
     position: absolute;
     width: 1200px;
-    height: 600px;
+    height: 520px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
 
 .main {
     height: 540px;
-    /* background-color: pink; */
     border-width: 2px;
     text-align: center;
+
 }
 
-.main>div {
+.main a {
     float: left;
-    width: 397px;
-    height: 268px;
-    /* background-color: #3298b8; */
     border-width: 1px;
     border-style: solid;
     border-color: #f2f4f699;
+    color: #999;
 }
 
-.main>div:hover {
+.main a:hover {
     box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.1);
 }
 
-.main div a {
-    color: #999;
-    display: inline-block;
-    width: 397px;
-    height: 266px;
-    line-height: 40px;
-}
-
-.main div a div {
-
-    width: 397px;
-    height: 150px;
-}
-
-.main div a div img {
-    /* 灰色相框 */
-    float: left;
+.main a .container {
     position: relative;
-    top: 50px;
-    left: 130px;
+    width: 394px;
+    height: 168px;
 }
 
-.main div a div .black {
-    /* 黑色相框 */
-    float: left;
+.main a p {
+    position: relative;
+    width: 394px;
+    height: 100px;
+}
+
+.main a .container img {
+    position: absolute;
+    /* background-color: pink; */
+    top: 40px;
+    left: 129px;
+}
+
+.main a .container video {
+    position: absolute;
+    top: 45px;
+    left: 158px;
+}
+
+.main a .container .black {
     visibility: hidden;
     /* 隐藏 */
-    position: relative;
-    top: 50px;
-    left: -6px;
-    /* 我是分割线 */
 }
 
-.main div:hover a div .black {
+.main a:hover .grey {
+    visibility: hidden;
+    /* 隐藏 */
+}
+
+.main a:hover .black {
     visibility: visible;
     /* 显示 */
-}
-
-.main div:hover a div .grey {
-    visibility: hidden;
-    /* 隐藏 */
-}
-
-.main div a div video {
-    float: left;
-    position: relative;
-    top: 56px;
-    left: -115px;
-    height: 78px;
 }
 
 .bottom ul li p {
