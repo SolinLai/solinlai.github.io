@@ -1,0 +1,147 @@
+* {
+    /* 全局设置 */
+    margin: 0;
+    /* 外边距设置0 */
+    padding: 0;
+    /* 内边距设置0 */
+    list-style: none;
+    /* 取消列表序号 */
+    text-decoration: none;
+    /* 取消链接下划线 */
+}
+
+.w {
+    /* 背景宽度1280像素及水平居中 */
+    width: 1200px;
+    margin: 0 auto;
+}
+
+/* body {
+    background-color: #000;
+} */
+
+.header {
+    width: 100%;
+    position: fixed;
+    padding: 0;
+    list-style-image: none;
+    height: 80px;
+    /* background-color: red; */
+    z-index: 999;
+    /* 一直将导航栏置于最顶层 */
+    overflow: hidden;
+}
+
+.header .header-box {
+    margin: 0 auto;
+    width: 1200px;
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+.header .header-1 a {
+    float: left;
+    margin: 0 20px;
+    font-size: 30px;
+    height: 80px;
+    line-height: 80px;
+    /* 高度+行高=垂直居中 */
+    /* background-color: pink; */
+}
+
+.header .header-box .header-1 a:hover {
+    color: #14E0BC;
+}
+
+.header .header-2 {
+    float: left;
+    width: 800px;
+    margin: 0 20px;
+    font-size: 30px;
+    height: 80px;
+    line-height: 80px;
+    /* 高度+行高=垂直居中 */
+    /* background-color: palevioletred; */
+}
+
+.header a {
+    color: #666;
+}
+
+.header .header-3 ul li .a-1 {
+    float: left;
+    font-size: 22px;
+    line-height: 60px;
+}
+
+.header .header-3 ul li .a-1:hover {
+    color: #14E0BC;
+}
+
+
+.header .header-3 ul li a img {
+    float: left;
+    margin: 11px auto;
+}
+
+.header .header-3 ul li .a-2 {
+    float: right;
+    margin: 0 2em;
+    font-size: 12px;
+    line-height: 25px;
+}
+
+.header .header-3 ul li .a-2:hover {
+    color: #14E0BC;
+}
+
+.top {
+    height: 95px;
+}
+
+.help {
+    height: 95px;
+}
+
+.video {
+    height: 675px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.2);
+    /* 阴影 */
+}
+
+.video a {
+    color: #666;
+}
+
+.video a:hover {
+    color: #14E0BC;
+}
+
+.bottom ul li p {
+    height: 50px;
+    line-height: 50px;
+    color: #999;
+}
+
+.bottom ul li .p1 {
+    margin-top: 80px;
+}
+
+.bottom ul li .p2 {
+    margin-bottom: 60px;
+}
+
+.bottom ul li a {
+    font: none;
+    margin: 0 20px 0 0;
+    color: #666;
+}
+
+.bottom ul li a:hover {
+    color: #14E0BC;
+}
